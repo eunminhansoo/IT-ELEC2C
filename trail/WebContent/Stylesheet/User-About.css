@@ -1,0 +1,160 @@
+/*import font*/
+@font-face { 
+    /* pacheck kung tama directory*/
+    font-family: basic title font;
+    src: url(Font/basictitlefont.ttf);
+
+    font-family: Akrobat;
+    src: url(Font/Akrobat-Regular.otf);
+}
+body{
+    background:white;
+    margin: 0 auto;
+}
+span.arrow {
+    font-size:12px;
+    line-height:1%;
+}
+/*navigation bar*/
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: #1e445b;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+img.nav-logo{
+    margin:20px;
+
+    width:250px;
+    float:left;
+    cursor:pointer;
+}
+/*navigation bar*/
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: #1e445b;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+img.nav-logo{
+    margin:20px;
+    width:250px;
+    float:left;
+    cursor:pointer;
+}
+nav{
+    float: right;
+    font-family:Akrobat;
+    font-size:20px;
+}
+nav ul {
+    margin: 0;
+    margin-right:35px;
+    padding: 0;
+    list-style: none;
+
+}
+span.border{
+    border-left:1px solid #bbb;
+    margin-right:50px;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+    padding-top:50px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+/*dropdown for profile*/
+li.dropdown {
+    display: inline-block;
+} 
+.dropdown-content {
+    display: none;
+    padding-top:10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1{
+    margin:30px 30px 0px 30px;
+    padding-left:30px;
+    font-size:40px;
+    font-family:Akrobat;
+}
+#about{
+    float:right;
+    padding-left:80px;
+    text-align: justify;
+    font-family: Akrobat;
+    font-size: 20px;
+    margin-bottom:50px;
+}
+
+img.about{
+    width:290px;
+    float: left;
+    margin-top:10px;
+    padding-right:30px;
+    padding-bottom:0px;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background: #1e445b;
+    font-family: Arial;
+    font-size: 12px;
+    color:white;
+    text-align: right;
+}
+span.al{
+    padding-right:6px;
+}
+p{
+    float:right;
+}
+article{
+    display: block;
+    text-align: justify;
+    width:90%;
+}
+about-text{
+    float:right;
+}
+h2{
+    color:#1e445b;
+    font-weight:bold;
+}

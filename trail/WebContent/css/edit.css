@@ -1,0 +1,294 @@
+.imglogo{
+	width:130px;
+}
+
+span.bordernavbar{
+	    border-left:1px solid #bbb;
+    margin-right:50px;
+}
+
+#register{
+    margin:0px;
+    text-align: center;
+    font-family: Akrobat;
+    font-size: 20px;
+}
+#register label{
+    font-size:18px;
+    font-weight:bold;
+}
+#register button{
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family:basic title font;
+    font-weight: bold;
+    padding: 10px;
+    width: 300px;
+    height:46px;
+    cursor: pointer;
+    margin: 20px auto;
+    letter-spacing: 3px;
+}
+#register button:hover{
+    background: #009933;
+    cursor: pointer;
+}
+#register input{
+    padding:20px;
+    width:320px;
+    margin:10px;
+}
+
+#login-modal .modal-dialog {
+    width: 500px;
+	margin-top:100px;
+}
+
+#login-modal input[type=text], input[type=password] {
+	margin-top: 15px;
+        margin-left: 20px;
+	width:420px;
+}
+
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 50px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    border-radius: 0px;
+}
+
+.btn-link {
+    padding: 5px 10px 0px 0px;
+    color: #5b5b5b;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+  margin: 0 auto;
+  
+}
+
+#NoO table.right{
+    float:right;
+    margin:0px 40px 40px 0px;
+}
+#NoO th{
+    font-size:22px;
+    padding:30px 10px 20px 0px;
+}
+#NoO th, input[type=text]{
+    margin:8px;
+    margin-top:14px;
+    width:197px;
+}
+#NoO td.right{
+    padding-left:45px;
+    padding-right:30px;
+}
+
+#NoO table.left{
+    float:left;
+    text-align: center;
+    font-family: Akrobat;
+    margin:0px 10px 10px 60px;/*60-160*/
+}
+
+img.size-chart{
+    width:420px; 
+    height:140px;
+    /*
+   preferrable height for 10"" laptop
+   width:234px; 
+    height:320px;
+    */
+}
+img.price-list{
+    padding-left: 0px;
+    width:500px; /*500 pref*/
+    height:180px;   
+    /*
+    preferable width for 10"" laptop
+    width:234px; 
+     height:320px;
+    */
+}
+
+/*Back, Next, Edit Buttons*/
+#footer-button{
+    margin:30px;
+    padding-left:30px;
+    position: absolute;
+    bottom: -130px; /* 10"" 220*/
+    width: 100%;
+}
+
+#footer-button button{
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: Akrobat;
+    padding: 10px;
+    width: 100px;
+    height:40px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px auto;
+}    
+#footer-button button:hover{
+    background: #009933;
+    color:white; 
+}
+#footer-button button.footer-button-back{
+    display: inline-block;
+    background-color: #999999;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: Akrobat;
+    padding: 10px;
+    width: 100px;
+    height:40px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px auto;
+}    
+#footer-button button.footer-button-back:hover{
+    background: #666666;
+    color:white; 
+}
+.button-Noo-right{
+    float:right;
+    padding-right:26px;
+}
+.button-Noo{
+    float:left;
+    margin-top:15px;
+    margin-left:10px;
+    padding-left: 26px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#NoO.textArea{
+    resize: none;
+    margin-left:10px;
+    margin-top:15px;
+}
+
+
