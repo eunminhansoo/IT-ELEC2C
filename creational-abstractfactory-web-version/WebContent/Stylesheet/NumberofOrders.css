@@ -1,0 +1,232 @@
+/*import font*/
+@font-face { 
+    /* pacheck kung tama directory*/
+    font-family: basic title font;
+    src: url(Font/basictitlefont.ttf);
+
+    font-family: Akrobat;
+    src: url(Font/Akrobat-Regular.otf);
+}  
+span.arrow {
+    font-size:12px;
+    line-height:1%;
+}
+body{
+    background:white;
+    margin: 0 auto;
+}
+/*navigation bar*/
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: #1e445b;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+img.nav-logo{
+    margin:20px;
+
+    width:250px;
+    float:left;
+    cursor:pointer;
+}
+nav{
+    float: right;
+    font-family:Akrobat;
+    font-size:20px;
+}
+nav ul {
+    margin: 0;
+    margin-right:35px;
+    padding: 0;
+    list-style: none;
+}
+span.border{
+    border-left:1px solid #bbb;
+    margin-right:50px;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+    padding-top:50px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+h1{
+    margin:30px 30px 0px 30px;
+    padding-left:30px;
+    font-size:40px;
+    font-family:Akrobat;
+}
+span.al{
+    padding-right:6px;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    padding-top:10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*align text fields to right*/
+div.fi-right{
+    font-family:Akrobat;
+    font-size:20px;
+    margin:0px 10px 30px 0px;
+    padding-right:0px;
+    text-align:right;
+}
+div.fi-right input{
+    margin-left:0px;
+    padding:6px;
+    margin-bottom:7px;
+}
+
+/*Label*/
+div.fi-right-textfield{
+    background: red;
+}
+span.label-header{
+    font-weight:bold;
+    font-family: Akrobat;
+    font-size: 26px;
+
+}
+table.right{
+    float:right;
+    margin:0px 40px 40px 0px;
+}
+th{
+    font-size:22px;
+    padding:30px 10px 20px 0px;
+}
+th, input[type=text]{
+    margin:8px;
+    margin-top:14px;
+    width:197px;
+}
+td.right{
+    padding-left:45px;
+    padding-right:30px;
+}
+
+table.left{
+    float:left;
+    text-align: center;
+    font-family: Akrobat;
+    margin:0px 10px 10px 60px;/*60-160*/
+}
+
+img.size-chart{
+    width:420px; 
+    height:140px;
+    /*
+   preferrable height for 10"" laptop
+   width:234px; 
+    height:320px;
+    */
+}
+img.price-list{
+    padding-left: 0px;
+    width:500px; /*500 pref*/
+    height:180px;   
+    /*
+    preferable width for 10"" laptop
+    width:234px; 
+     height:320px;
+    */
+}
+
+/*Back, Next, Edit Buttons*/
+#footer-button{
+    margin:30px;
+    padding-left:30px;
+    position: absolute;
+    bottom: -130px; /* 10"" 220*/
+    width: 100%;
+}
+
+#footer-button button{
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: Akrobat;
+    padding: 10px;
+    width: 100px;
+    height:40px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px auto;
+}    
+#footer-button button:hover{
+    background: #009933;
+    color:white; 
+}
+#footer-button button.footer-button-back{
+    display: inline-block;
+    background-color: #999999;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: Akrobat;
+    padding: 10px;
+    width: 100px;
+    height:40px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px auto;
+}    
+#footer-button button.footer-button-back:hover{
+    background: #666666;
+    color:white; 
+}
+.footer-button-right{
+    float:right;
+    padding-right:120px;
+}
+button{
+    float:left;
+    margin-top:15px;
+    margin-left:10px;
+    padding: 6px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+textArea{
+    resize: none;
+    margin-left:10px;
+    margin-top:15px;
+}

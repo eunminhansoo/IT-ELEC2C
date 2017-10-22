@@ -1,0 +1,132 @@
+/*import font*/
+@font-face { 
+    /* pacheck kung tama directory*/
+    font-family: basic title font;
+    src: url(Font/basictitlefont.ttf);
+
+    font-family: Akrobat;
+    src: url(Font/Akrobat-Regular.otf);
+}
+body{
+    background:white;
+    margin: 0 auto;
+}
+/*navigation bar*/
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: #1e445b;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+img.nav-logo{
+    margin:20px;
+
+    width:250px;
+    float:left;
+    cursor:pointer;
+}
+nav{
+    float: right;
+    font-family:Akrobat;
+    font-size:20px;
+}
+nav ul {
+    margin: 0;
+    margin-right:35px;
+    padding: 0;
+    list-style: none;
+}
+span.border{
+    border-left:1px solid #bbb;
+    margin-right:50px;
+}
+span.arrow {
+    font-size:12px;
+    line-height:1%;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+    padding-top:50px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background: #1e445b;
+    font-family: Arial;
+    font-size: 12px;
+    color:white;
+    text-align: right;
+}
+span.al{
+    padding-right:6px;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    padding-top:10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1{
+    margin:30px;
+    padding-left:30px;
+    font-size:40px;
+    font-family:Akrobat;
+}
+table{
+    padding-left:60px;
+    font-family: Akrobat;
+    text-align: center;
+    margin: 0px auto;
+    border: 2px black;
+}
+table img{
+    width:300px;
+    height:290px;
+}
+tr{
+    margin:20px;
+}
+table, tr, th, td {
+   border: 1px solid black;
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
